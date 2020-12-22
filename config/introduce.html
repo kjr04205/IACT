@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="ko" style="min-width: 1900px;">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>실증DB</title>
+<!-- css:: -->
+    <link rel="stylesheet" href="../assets/css/reset.css">
+    <link rel="stylesheet" href="../assets/css/common.css">
+    <link rel="stylesheet" href="../assets/css/main.css">
+    <link rel="icon" href="../assets/images/icon.png">
+
+<!-- javaScript::-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="../assets/js/main.js"></script>
+</head>
+<body>
+    
+    <header id="header" class="sub_header">
+        <div class="header_inner">
+            <div class="header_left">
+                <h1>
+                    <a href="../index.html">
+                        <img src="../assets/images/sub_logo.png" alt="첨단정보통신융합산업기술원">
+                    </a>
+                </h1>
+            </div>
+
+            <div class="header_mid">
+                <ul class="gnb sub_gnb">
+                    <li>
+                        <a href="introduce.html">사업소개</a>
+
+                        <ul style="display: none;" class="lnb">
+                            <li>
+                                <a href="introduce.html">사업소개</a>
+                            </li>
+
+                            <li>
+                                <a href="introduceCT.html">센터소개</a>
+                            </li>
+
+                            <li>
+                                <a href="#link">보유장비</a>
+                            </li>
+
+                            <li>
+                                <a href="introduceOrga.html">조직도</a>
+                            </li>
+
+                            <li>
+                                <a href="#link">오시는길</a>
+                            </li>
+                        </ul>
+                    </li>
+
+                    <li>
+                        <a href="technical.html">실증지원</a>
+
+                        <ul style="display: none;" class="lnb">
+                            <li>
+                                <a href="technical.html">기술자료</a>
+                            </li>
+
+                            <li>
+                                <a href="#link">제조지원</a>
+                            </li>
+
+                            <li>
+                                <a href="#link">컨설팅</a>
+                            </li>
+
+                            <li>
+                                <a href="#link">협력기관</a>
+                            </li>
+                        </ul>
+                    </li>
+
+                    <li>
+                        <a href="inspection.html">실증 데이터베이스(DB)</a>
+
+                        <ul style="display: none;" class="lnb">
+                            <li>
+                                <a href="inspection.html">시험검사 DB</a>
+                            </li>
+
+                            <li>
+                                <a href="#link">제조공정 DB</a>
+                            </li>
+
+                            <li>
+                                <a href="#link">임상시험 DB</a>
+                            </li>
+
+                            <li>
+                                <a href="#link">보험급여 DB</a>
+                            </li>
+                        </ul>
+                    </li>
+                    
+                    <li>
+                        <a href="#link">해외DB</a>
+                    </li>
+
+                    <li>
+                        <a href="notice.html">이용안내</a>
+
+                        <ul style="display: none;" class="lnb">
+                            <li>
+                                <a href="notice.html">공지사항</a>
+                            </li>
+
+                            <li>
+                                <a href="#link">언론보도</a>
+                            </li>
+
+                            <li>
+                                <a href="#link">Q＆A</a>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="header_right">
+                <img src="../assets/images/sub_login.png" alt="로그인이미지" onclick="location.href='login.html'">
+                <img src="../assets/images/sub_menu.png" alt="메뉴이미지" class="go_menu">
+            </div>
+
+            <div class="menu_container" style="display: none;">
+                <div>
+                    <ul>
+                        <li>사업소개
+                            <ul>
+                                <li><a href="introduce.html">사업소개</a></li>
+                                <li><a href="introduceCT.html">센터소개</a></li>
+                                <li><a href="#link">보유장비</a></li>
+                                <li><a href="introduceOrga.html">조직도</a></li>
+                                <li><a href="#link">오시는길</a></li>
+                            </ul>
+                        </li>
+
+                        <li>실증지원
+                            <ul>
+                                <li><a href="technical.html">기술자료</li></a>
+                                <li><a href="#link">제조지원</li></a>
+                                <li><a href="#link">컨설팅</li></a>
+                                <li><a href="#link">협력기관</li></a>
+                            </ul>
+                        </li>
+
+                        <li>실증 데이터베이스(DB)
+                            <ul>
+                                <li><a href="inspection.html">시험검사 DB</li></a>
+                                <li><a href="#link">제조공정 DB</li></a>
+                                <li><a href="#link">임상시험 DB</li></a>
+                                <li><a href="#link">보험급여 DB</li></a>
+                            </ul>
+                        </li>
+
+                        <li>해외DB
+                            <ul>
+                                <li><a href="#link">해외DB</a></li>
+                            </ul>
+                        </li>
+
+                        <li>이용안내
+                            <ul>
+                                <li><a href="notice.html">공지사항</li></a>
+                                <li><a href="#link">언론보도</li></a>
+                                <li><a href="#link">Q&A</li></a>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </header>
+    
+    <div class="title">
+        <div>
+            <h3>사업소개</h3>
+        </div>
+    </div>
+
+    <div class="sub_title">
+        <ul>
+            <li>
+                <a href="#link" class="sub_background">사업소개</a>
+            </li>
+            
+            <li>
+                <a href="introduceCT.html">센터소개</a>
+            </li>
+            
+            <li>
+                <a href="#link">보유장비</a>
+            </li>
+
+            <li>
+                <a href="introduceOrga.html">조직도</a>
+            </li>
+
+            <li>
+                <a href="#link">오시는길</a>
+            </li>
+        </ul>
+
+        <h3>사업소개</h3>
+    </div>
+
+    <div class="sub_container">
+        <div class="sub_container_top">
+            <div class="sub_container_top_title">
+                <div class="sub_container_circle1">
+                    <div>비전</div>
+                </div>
+    
+                <div class="sub_container_circle1_txt">
+                    <p>3D프린팅 의료기기 글로벌 선도국가 도약</p>
+                </div>
+
+                <div class="sub_container_circle2">
+                    <p>목표</p>
+                </div>
+
+                <div class="sub_container_circle2_txt">
+                    <p>3D프린팅 의료기기 신시장 창출에 필수적으로 요구되는 실증데이터 확보 지원으로<br>고부가 맞춤형 의료산업 성장 견인</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="sub_container_bottom">
+            <div class="sub_container_bottom_circle">
+                <div class="title_line"></div>
+                <div>추진전략</div>
+                <div class="title_line"></div>
+            </div>
+
+            <div class="sub_container_bottom_txt">
+                <p>3D프린팅 의료기기 시생산 및 임상실증 사업과 연계</p>
+                <p><span>개발→실증→시장창출 </span><span>全주기 지원</span></p>
+            </div>
+
+            <div class="sub_container_bottom_box">
+                <div>
+                    <img src="../assets/images/introduce_box_01.png" alt="추진전략이미지">
+                    <p>실증지원센터 구축 및 임상실증 과제<br>연계 공동연구 수행</p>
+                </div>
+                
+                <div>
+                    <img src="../assets/images/introduce_box_02.png" alt="추진전략이미지">
+                    <p>실증DB 기반 사업화 성과 창출 지원</p>
+                </div>
+                
+                <div>
+                    <img src="../assets/images/introduce_box_03.png" alt="추진전략이미지">
+                    <p>3D프린팅 의료기기 실증사업<br>전문 협의체 구축&middot;운영</p>
+                </div>
+                
+                <div>
+                    <img src="../assets/images/introduce_box_04.png" alt="추진전략이미지">
+                    <p>3D프린팅 의료기기 전문기업 집적화</p>
+                </div>
+            </div>
+
+            <div class="sub_container_bottom_circle">
+                <div class="title_line"></div>
+                <div>사업내용</div>
+                <div class="title_line"></div>
+            </div>
+
+            <div class="sub_container_bottom_content">
+                <div>
+                    <p>실증지원센터 구축</p>
+                    <p>3D프린팅 의료기기 시장창출 촉진<br>융합플랫폼 확보</p>
+                </div>
+                
+                <div>
+                    <p>실증품목 위탁공정 및<br>양산공정 기술지원</p>
+                    <p>실증품목별 최적 적층공정 개발 및<br>기술지원과 기 구축 인프라<br>(GMP시설,장비) 연계 활용 시<br>생산 및 위탁제조 지원</p>
+                </div>
+                    
+                <div>
+                    <p>실증DB 시스템<br>구축&middot;운영</p>
+                    <p>실증DB 개발 및 종합 정보 시스템<br>구축 및 운영과 임상실증 과제 연계<br>실증DB 체계 수립 및 종합 정보<br>공공 자산화</p>
+                </div>
+                
+                <div>
+                    <p>식약처 연계 품목허가<br>실증지원</p>
+                    <p>품목허가 가이드라인 연계 시험검사,<br>DB확보, 임상, GMP 심사, 인허가<br>취득 관련 기술지원</p>
+                </div>
+
+                <div>
+                    <p>연계협력 네트워크 구축</p>
+                    <p>기업, 의료기관, 연구소 공통 애로<br>해결과 3D프린팅 의료기기<br>산업육성 지원</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer id="footer">
+        <div>
+            <h2>
+                <img src="../assets/images/ft_logo.png" alt="IACT로고이미지">
+            </h2>
+
+            <div class="fl-r footer_right">
+                <a href="#link">개인정보처리방침</a>
+                <a href="#link">이메일무단수집거부</a>
+            </div>
+        </div>
+        
+        <div class="address">
+            <address class="fl-l">
+                <span>Tel</span>
+                <a href="tel:1566-9778"><span>1566-9778</span></a>
+                <a href="tel:053-217-3456"><span>&#40;053-217-3456&#41;</span></a>
+                <span>Fax</span>
+                <span>053-289-4800</span>
+                <div class="address_m_top">
+                    <span>주소</span>
+                    <span>&#40;우&#41;41061 대구시 동구 동대로 70</span>
+                </div>
+            </address>
+
+            <div class="fl-r footer_right_address">
+                <span>Copyright &copy;</span>
+                <span>medi3dp.or.kr.</span>
+                <span>All rights reserved</span>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>

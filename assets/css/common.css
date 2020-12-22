@@ -1,0 +1,96 @@
+
+/*------------header ----------------------*/
+#header{padding: 49px 0 0 70px; overflow: hidden;}
+.sub_header{margin-bottom: 31px;}
+.header_inner{z-index: 999999;}
+.header_left, .header_mid, .header_right{display: inline-block; z-index: 999999;}
+.header_left{position: relative;}
+
+.header_mid{position: absolute; right: 260px; top: 55px;}
+.header_mid > ul > li{display: inline-block; padding-left: 62px;}
+.header_mid > ul > li:nth-child(1){padding-left: 0;}
+.header_mid > ul > li > a{font-family: 'NotoSansKR-Medium'; font-size: 18px; font-weight: 500; letter-spacing: -0.45px;}
+.lnb{position: absolute; top: 40px; background: #313131; width: 130px; height: 280px;}
+.lnb li a{font-size: 17px; letter-spacing: -0.43px; line-height: 48px; text-align: center;}
+.lnb li a:hover{font-weight: bold;}
+.gnb li:nth-child(1) .lnb{left: -30px;}
+.gnb li:nth-child(2) .lnb{left: 102px;}
+.gnb li:nth-child(3) .lnb{left: 285px;}
+.gnb li:nth-child(5) .lnb{right: -32px;}
+
+.header_right{position: absolute; right: 3%;}
+.header_right img:nth-child(1){margin-right: 50px;}
+
+/*--------------서브페이지 목록＆버튼 색상클래스-------------------*/
+.sub_background{background: #1c0872 !important;}
+.button_background_gray{background: #707070;}
+.button_background_blue{background: #30328f;}
+
+/*-------------------------------------------------*/
+
+/*----------------서브메뉴바 텍스트 색상 ＆ title----------------------*/
+
+.sub_gnb > li > a{color: #1b1b1b;}
+.sub_gnb > li > a:hover{color: #004597;}
+.title{width: 100%; height: 190px; background: url(../images/sub_visual.png);}
+.title > div > h3{font-size: 48px; text-align: center; color: #fff; font-family: 'paybooc'; padding-top: 74px;}
+
+.sub_title{max-width: 1560px; margin: 0 auto; text-align: center;}
+.sub_title ul li{display: inline-block; width: calc(100% / 5 - 40px);}
+.sub_title ul li a{height: 60px; background: #30328f; font-size: 17px; letter-spacing: -0.85px; padding-top: 19px;}
+
+.sub_title > h3{margin-top: 52px; margin-bottom: 69px; font-size: 40px; color: #1b1b1b; letter-spacing: -1px; font-weight: bold;}
+/*-----------------------------------------------------------------------------*/
+
+/*---------햄버거바 메뉴 클릭시 -----------*/
+.menu_container{width: 97%; background: #30328f; margin-top: 20px; opacity: 90%;}
+.menu_container > div{text-align: center;}
+.menu_container div > ul > li{font-size: 20px; padding: 30px 0; border-bottom: 3px solid #e3e3e3; opacity: 70%;}
+.menu_container div ul li ul{margin-top: 20px; text-align: center;}
+.menu_container div ul li:hover{opacity: 100%; font-weight: bold;}
+.menu_container div ul li ul li a:hover{color: #e3e3e3;}
+.menu_container div ul li ul li{display: inline-block; width: 100px;}
+.menu_container div ul li ul li a{font-size: 16px;}
+
+/*메인페이지 메뉴바 1860px 까지의 css*/
+.exception_menu{text-align: initial !important; padding: 0 20px !important;}
+
+.show{display: inline-block;}
+.hide{display: none;}
+
+/*-------------------footer --------------------*/
+#footer::before{content: ""; position: absolute; width: 81.5%; height: 1px; background: #e6e6e6; left: 9.5%; top: -29px;}
+#footer{position: relative; margin-top: 100px;}
+/*notice페이지 마진탑 나중에 확인다시*/
+.sub_footer{margin-top: 263px !important;}
+/*------------------------------------*/
+#footer > div:nth-child(1){margin-left: 10%; margin-bottom: 20px;}
+#footer h2{display: inline-block;}
+#footer > div:nth-child(1) a{display: inline-block; font-size: 14px; color: #444; letter-spacing: -1.05px;}
+#footer > div:nth-child(1) a:nth-child(2){margin: 0 174px 0 30px; font-weight: bold;}
+
+
+#footer .address{background: #858993; height: 118px; padding: 43px 0 0 10%;}
+#footer .address{color: #e9eaec;}
+#footer .address span{font-size: 14px; letter-spacing: -0.35px; font-family: 'NotoSansKR-Medium';}
+#footer .address address{font-style: normal;}
+#footer .address address a{display: inline-block;}
+.address div:nth-child(1) span:nth-child(1){margin-right: 5px; font-weight: bold; font-family: 'NotoSansKR-Bold';}
+.address address a:nth-child(3){margin-right: 20px;}
+.address address span:nth-child(3){font-weight: bold;}
+.address address span:nth-child(5){margin-right: 30px;}
+.address address span:nth-child(5){font-weight: bold;}
+.address address span:nth-child(6){margin-right: 30px;}
+.address .address_m_top{display: inline-block;}
+.address div span:nth-child(1){font-family: 'MyriadPro';}
+.address div span:nth-child(2){font-weight: bold; font-family: 'MyriadProBold';}
+.address .footer_right_address{margin-right: 174px;}
+
+/*---------------서브페이지-------------------*/
+.sub_container{margin: 0 auto; max-width:1560px; height: auto; text-align: center;}
+
+/*-----------버튼 공통 -----------------*/
+.common_list_button{width: 110px; height: 48px; font-size: 15px; letter-spacing: -0.9px; font-weight: bold; color: #fff; cursor: pointer; background: #707070; margin-bottom: 11px;}
+
+/*--------------테이블 text-align ---------------*/
+.text_left{text-align: left;}

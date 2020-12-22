@@ -1,0 +1,568 @@
+<!DOCTYPE html>
+<html lang="ko" style="min-width: 1920px;">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>실증DB</title>
+<!-- css:: -->
+    <link rel="stylesheet" href="../assets/css/main.css">
+    <link rel="stylesheet" href="../assets/css/board.css">
+    <link rel="stylesheet" href="../assets/css/reset.css">
+    <link rel="stylesheet" href="../assets/css/common.css">
+    <link rel="icon" href="../assets/images/icon.png">
+
+<!-- javaScript::-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="../assets/js/main.js"></script>
+</head>
+<body>
+    
+    <header id="header" class="sub_header">
+        <div class="header_inner">
+            <div class="header_left">
+                <h1>
+                    <a href="../index.html">
+                        <img src="../assets/images/sub_logo.png" alt="첨단정보통신융합산업기술원">
+                    </a>
+                </h1>
+            </div>
+
+            <div class="header_mid">
+                <ul class="gnb sub_gnb">
+                    <li>
+                        <a href="introduce.html">사업소개</a>
+
+                        <ul style="display: none;" class="lnb">
+                            <li>
+                                <a href="introduce.html">사업소개</a>
+                            </li>
+
+                            <li>
+                                <a href="introduceCT.html">센터소개</a>
+                            </li>
+
+                            <li>
+                                <a href="#link">보유장비</a>
+                            </li>
+
+                            <li>
+                                <a href="introduceOrga.html">조직도</a>
+                            </li>
+
+                            <li>
+                                <a href="#link">오시는길</a>
+                            </li>
+                        </ul>
+                    </li>
+
+                    <li>
+                        <a href="technical.html">실증지원</a>
+
+                        <ul style="display: none;" class="lnb">
+                            <li>
+                                <a href="technical.html">기술자료</a>
+                            </li>
+
+                            <li>
+                                <a href="#link">제조지원</a>
+                            </li>
+
+                            <li>
+                                <a href="#link">컨설팅</a>
+                            </li>
+
+                            <li>
+                                <a href="#link">협력기관</a>
+                            </li>
+                        </ul>
+                    </li>
+
+                    <li>
+                        <a href="inspection.html">실증 데이터베이스(DB)</a>
+
+                        <ul style="display: none;" class="lnb">
+                            <li>
+                                <a href="inspection.html">시험검사 DB</a>
+                            </li>
+
+                            <li>
+                                <a href="#link">제조공정 DB</a>
+                            </li>
+
+                            <li>
+                                <a href="#link">임상시험 DB</a>
+                            </li>
+
+                            <li>
+                                <a href="#link">보험급여 DB</a>
+                            </li>
+                        </ul>
+                    </li>
+                    
+                    <li>
+                        <a href="#link">해외DB</a>
+                    </li>
+
+                    <li>
+                        <a href="notice.html">이용안내</a>
+
+                        <ul style="display: none;" class="lnb">
+                            <li>
+                                <a href="notice.html">공지사항</a>
+                            </li>
+
+                            <li>
+                                <a href="#link">언론보도</a>
+                            </li>
+
+                            <li>
+                                <a href="#link">Q＆A</a>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="header_right">
+                <img src="../assets/images/sub_login.png" alt="로그인이미지" onclick="location.href='login.html'">
+                <img src="../assets/images/sub_menu.png" alt="메뉴이미지" class="go_menu">
+            </div>
+            
+            <div class="menu_container" style="display: none;">
+                <div>
+                    <ul>
+                        <li>사업소개
+                            <ul>
+                                <li><a href="introduce.html">사업소개</a></li>
+                                <li><a href="introduceCT.html">센터소개</a></li>
+                                <li><a href="#link">보유장비</a></li>
+                                <li><a href="introduceOrga.html">조직도</a></li>
+                                <li><a href="#link">오시는길</a></li>
+                            </ul>
+                        </li>
+
+                        <li>실증지원
+                            <ul>
+                                <li><a href="technical.html">기술자료</li></a>
+                                <li><a href="#link">제조지원</li></a>
+                                <li><a href="#link">컨설팅</li></a>
+                                <li><a href="#link">협력기관</li></a>
+                            </ul>
+                        </li>
+
+                        <li>실증 데이터베이스(DB)
+                            <ul>
+                                <li><a href="inspection.html">시험검사 DB</li></a>
+                                <li><a href="#link">제조공정 DB</li></a>
+                                <li><a href="#link">임상시험 DB</li></a>
+                                <li><a href="#link">보험급여 DB</li></a>
+                            </ul>
+                        </li>
+
+                        <li>해외DB
+                            <ul>
+                                <li><a href="#link">해외DB</a></li>
+                            </ul>
+                        </li>
+
+                        <li>이용안내
+                            <ul>
+                                <li><a href="notice.html">공지사항</li></a>
+                                <li><a href="#link">언론보도</li></a>
+                                <li><a href="#link">Q&A</li></a>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </header>
+    
+    <div class="title">
+        <div>
+            <h3>실증 데이터베이스(DB)</h3>
+        </div>
+    </div>
+
+    <div class="sub_title">
+        <ul>
+            <li>
+                <a href="#link" class="sub_background">시험검사 DB</a>
+            </li>
+
+            <li>
+                <a href="#link">제조공정 DB</a>
+            </li>
+
+            <li>
+                <a href="#link">임상시험 DB</a>
+            </li>
+
+            <li>
+                <a href="#link">보험급여 DB</a>
+            </li>
+        </ul>
+
+        <h3>시험검사 DB</h3>
+    </div>
+
+    <div class="sub_container">
+        <div class="sub_container_inspection">
+            <form action="" method="POST" class="sub_container_inspection_search">
+                <div>
+                    <label for="placeName">DB검색</label>
+                </div>
+                
+                <input type="text" value="업소명" placeholder="업소명" id="placeName" class="placeName">
+                <input type="text" value="품목명" placeholder="품목명" id="thisName" class="thisName">
+
+                <select name="rating" id="rating" class="rating">
+                    <option value="전체 의료기기 등급">전체 의료기기 등급</option>
+                    <option value="전체 의료기기 레벨">전체 의료기기 레벨</option>
+                </select>
+
+                <button type="button">
+                    <img src="../assets/images/sub_search_white.png" alt="검색이미지">
+                </button>
+
+                <select name="detail_search" id="detail_search" class="detail_search">
+                    <option value="상세검색">상세검색</option>
+                    <option value="상세검색">상세검색</option>
+                </select>
+            </form>
+
+            <form action="" method="POST" class="sub_container_inspection_detail">
+                <div>
+                    <label for="detail_search" class="detail_search_title">DB상세검색</label>
+                </div>
+                
+                <div>
+                    <label for="">모델명</label>
+                    <input type="text" value="예)ESMPB" placeholder="예)ESMPB">
+                </div>
+                
+                <div>
+                    <label for="">품목허가번호</label>
+                    <input type="text">
+                </div>
+
+                <div>
+                    <label for="">품목코드</label>
+                    <input type="text">
+                </div>
+
+                <div>
+                    <label for="">원재료</label>
+                    <input type="text">
+                </div>
+
+                <div>
+                    <label for="">제품명</label>
+                    <input type="text">
+                </div>
+
+                <div>
+                    <label for="">보험급여</label>
+                    <select name="" id="">
+                        <option value="전체">전체</option>
+                        <option value="제목">제목</option>
+                        <option value="내용">내용</option>
+                    </select>
+                </div>
+
+                <div class="sub_container_inspection_detail_bottom sub_container_inspection_detail_m">
+                    <label for="">사용목적</label>
+                    <input type="text">
+                </div>
+
+                <div class="sub_container_inspection_detail_bottom">
+                    <label for="">연구제목</label>
+                    <input type="text">
+                </div>
+
+                <div class="sub_container_inspection_detail_button">
+                    <button type="button" class="detail_button1">
+                        검색초기화
+                    </button>
+                    
+                    <button type="button" class="detail_button2">
+                        <img src="../assets/images/sub_search_white.png" alt="검색이미지">
+                        검색
+                    </button>
+                </div>
+            </form>
+
+            <div class="sub_container_inspection_DB">
+                <div class="DB_title">
+                    <div>
+                        <img src="../assets/images/DB1.png" alt="DB전체이미지">
+                        <p>전체</p>
+                    </div>
+
+                    <div>
+                        <img src="../assets/images/DB2.png" alt="DB시험검사이미지">
+                        <p>시험검사</p>
+                    </div>
+
+                    <div>
+                        <img src="../assets/images/DB3.png" alt="DB제조공정이미지">
+                        <p>제조공정</p>
+                    </div>
+
+                    <div>
+                        <img src="../assets/images/DB4.png" alt="DB임상시험이미지">
+                        <p>임상시험</p>
+                    </div>
+
+                    <div>
+                        <img src="../assets/images/DB5.png" alt="DB보험급여이미지">
+                        <p>보험급여</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="DB_table">
+                <div class="common_table_question">
+                    <img src="../assets/images/table_question.png" alt="도움말이미지">
+                    <span>도움말</span>
+                </div>
+
+                <table class="common_table">
+                    <caption class="sr-only">시험검사DB 검색결과 테이블입니다.</caption>
+
+                    <colgroup>
+                        <col width="5%">
+                        <col width="20%">
+                        <col width="15%">
+                        <col width="6%"> 
+                        <col width="7%"> 
+                        <col width="8%"> 
+                        <col width="15%">
+                        <col width="16%">
+                        <col width="8%"> 
+                    </colgroup>
+
+                    <thead>
+                        <tr>
+                            <th>번호</th>
+                            <th>기업명</th>
+                            <th>품목명</th>
+                            <th>의료기기 등급</th>
+                            <th>품목허가번호</th>
+                            <th>품목코드</th>
+                            <th>모델명</th>
+                            <th>제품명</th>
+                            <th>허가/신고일</th>
+                        </tr>
+                    </thead>
+
+                    <tbody>
+                        <tr>
+                            <td>1</td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td>제76237호</td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td>2020-11-04</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <div class="DB_company">
+                <div class="common_table_title">
+                    <span class="fl-l">4등급</span>
+                    <span class="fl-l">(주)티앤알바이오팹 특수재질두개골성형재료</span>
+                    <button type="button" class="common_list_button fl-r">목록</button>
+                </div>
+
+                <table class="common_table">
+                    <caption class="sr-only">회사에 대한 정보입니다.</caption>
+
+                    <colgroup>
+                        <col width="8%">
+                        <col width="17%">
+                        <col width="8%"> 
+                        <col width="17%">
+                        <col width="8%">
+                        <col width="17%">
+                        <col width="8%">
+                        <col width="17%">
+                    </colgroup>
+
+                    <tbody class="common_table_td_left">
+                        <tr>
+                            <th>기업명</th>
+                            <td width="17%"></td>
+                            <th>업구분</th>
+                            <td width="17%"></td>
+                            <th>업허가번호</th>
+                            <td width="17%">제76237호</td>
+                            <th>허가일자</th>
+                            <td width="17%">2020-11-04</td>
+                        </tr>
+
+                        <tr>
+                            <th>연락처</th>
+                            <td width="17%"></td>
+                            <th>팩스</th>
+                            <td width="17%"></td>
+                            <th>주소</th>
+                            <td width="17%" colspan="3">대구광역시 수성구 알파시티123</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <div class="sub_container_inspection_DB">
+                <div class="DB_title DB_list">
+                    <div>
+                        <img src="../assets/images/DB1.png" alt="DB전체이미지">
+                        <p>전체</p>
+                    </div>
+
+                    <div>
+                        <img src="../assets/images/DB2.png" alt="DB시험검사이미지">
+                        <p>시험검사</p>
+                    </div>
+
+                    <div>
+                        <img src="../assets/images/DB3.png" alt="DB제조공정이미지">
+                        <p>제조공정</p>
+                    </div>
+
+                    <div>
+                        <img src="../assets/images/DB4.png" alt="DB임상시험이미지">
+                        <p>임상시험</p>
+                    </div>
+
+                    <div>
+                        <img src="../assets/images/DB5.png" alt="DB보험급여이미지">
+                        <p>보험급여</p>
+                    </div>
+
+                    <table class="common_table">
+                        <caption class="sr-only">품목에 대한 정보입니다.</caption>
+    
+                        <colgroup>
+                            <col width="15%">
+                            <col width="35%">
+                            <col width="15%"> 
+                            <col width="35%">
+                        </colgroup>
+    
+                        <tbody class="common_table_td_left text_left">
+                            <tr>
+                                <th>품목코드</th>
+                                <td width="35%"></td>
+                                <th>품목명</th>
+                                <td width="35%">제76237호</td>
+                            </tr>
+    
+                            <tr>
+                                <th>품목허가번호</th>
+                                <td width="35%"></td>
+                                <th>등급</th>
+                                <td width="35%">2020-11-04</td>
+                            </tr>
+
+                            <tr>
+                                <th>상태</th>
+                                <td width="35%"></td>
+                                <th>허가/신고일</th>
+                                <td width="35%"></td>
+                            </tr>
+
+                            <tr>
+                                <th>모델명</th>
+                                <td width="35%"></td>
+                                <th>명칭</th>
+                                <td width="35%"></td>
+                            </tr>
+
+                            <tr>
+                                <th>제품명</th>
+                                <td width="35%"></td>
+                                <th>사용목적</th>
+                                <td width="35%"></td>
+                            </tr>
+
+                            <tr>
+                                <th>제조자</th>
+                                <td width="35%" colspan="3"></td>
+                            </tr>
+
+                            <tr>
+                                <th>제조자 주소</th>
+                                <td width="35%" colspan="3">대구광역시 수성구 알파시티123</td>
+                            </tr>
+
+                            <tr>
+                                <th>제조의뢰자</th>
+                                <td width="35%" colspan="3"></td>
+                            </tr>
+
+                            <tr>
+                                <th>제조의뢰자 주소</th>
+                                <td width="35%" colspan="3"></td>
+                            </tr>
+
+                            <tr>
+                                <th>모양 및 구조 : 작용원리</th>
+                                <td width="35%" colspan="3"></td>
+                            </tr>
+
+                            <tr>
+                                <th>모양 및 구조 : 외형</th>
+                                <td width="35%" colspan="3"></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                
+                <div class="table_right">
+                    <button type="button">기본정보</button>
+                    <button type="button">모양 및 구조</button>
+                    <button type="button">사용방법</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer id="footer">
+        <div>
+            <h2>
+                <img src="../assets/images/ft_logo.png" alt="IACT로고이미지">
+            </h2>
+
+            <div class="fl-r footer_right">
+                <a href="#link">개인정보처리방침</a>
+                <a href="#link">이메일무단수집거부</a>
+            </div>
+        </div>
+        
+        <div class="address">
+            <address class="fl-l">
+                <span>Tel</span>
+                <a href="tel:1566-9778"><span>1566-9778</span></a>
+                <a href="tel:053-217-3456"><span>&#40;053-217-3456&#41;</span></a>
+                <span>Fax</span>
+                <span>053-289-4800</span>
+                <div class="address_m_top">
+                    <span>주소</span>
+                    <span>&#40;우&#41;41061 대구시 동구 동대로 70</span>
+                </div>
+            </address>
+
+            <div class="fl-r footer_right_address">
+                <span>Copyright &copy;</span>
+                <span>medi3dp.or.kr.</span>
+                <span>All rights reserved</span>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

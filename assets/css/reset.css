@@ -1,0 +1,53 @@
+/*------------------------------------------------------------------------------- RESET -----------------*/
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;700&display=swap');
+
+*{font-family:'Noto Sans KR', sans-serif; margin:0;  padding:0;  border:0;  box-sizing:border-box; line-height:1;}
+html{color: #fff; background: #fff;}
+body{line-height: 1; position:relative; margin:0; padding:0; font-size:16px; letter-spacing:-0.15px; overflow-x: scroll; overflow-y: scroll; color: #fff;}
+
+/* header{background: url("../images/main_visual.png") no-repeat 50%; height: 720px;} */
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed,  figure, figcaption, footer, header, hgroup,  menu, nav, output, ruby, section, summary, time, mark, audio, video{margin: 0; padding: 0; border: 0; font-size:  10px; vertical-align: middle;}
+ol, ul, dl {list-style: none; font-size:0;}
+a{color: #fff; display:block; text-decoration: none; cursor:pointer;}
+a:hover, a:active {text-decoration: none;}
+img{cursor: pointer;}
+
+table{border-collapse: collapse; border-spacing:0;}
+input, button{outline: 0;}
+button{cursor: pointer;}
+
+select { 
+    border-radius:0; /* 아이폰 사파리 보더 없애기 */ -webkit-appearance:none; /* 화살표 없애기 for chrome*/ 
+    -moz-appearance:none; /* 화살표 없애기 for firefox*/ appearance:none; /* 화살표 없애기 공통*/ 
+}
+/* 좌우 정렬 */
+.fl-l{float: left;}
+.fl-r{float: right;}
+/* 기본 css */
+.sr-only{position:absolute;  left:-10000px;  top:auto;  width:1px;  height:1px;  overflow:hidden;}
+
+/* 스크롤 */
+::-webkit-scrollbar{width:12px; height:12px; background-color:#e5e5e5;}
+::-webkit-scrollbar-thumb{background:#e5e5e5;}
+
+/* 폰트 */
+@font-face{
+    font-family: 'payboocBold';
+    src:url('../fonts/payboocBold.ttf') format('truetype');
+}
+
+@font-face{
+    font-family: 'payboocLight';
+    src:url('../fonts/payboocLight.ttf') format('truetype');
+}
+
+@font-face{
+    font-family: 'MyriadPro';
+    src:url('../fonts/MyriadPro.ttf') format('truetype');
+}
+
+@font-face{
+    font-family: 'MyriadProBold';
+    src: url('../fonts/MyriadProBold.ttf') format('truetype');
+}

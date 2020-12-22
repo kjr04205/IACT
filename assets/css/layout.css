@@ -1,0 +1,340 @@
+
+/* Common 공통 */
+@media screen and (max-width:1860px){
+    .header_mid{
+        display: none !important;
+    }
+    .header_link{
+        display: none !important;
+    }
+    .background{
+        display: none !important;
+    }
+    .number1, .number2, .number3{
+        display: none !important;
+    }
+    /*메인페이지 메뉴바 1860px 까지의 css*/
+    .exception_menu{
+        text-align: center !important; padding: 0 !important;
+    }
+}
+@media screen and (max-width:1804px){
+    .footer_right a:nth-child(2){
+        margin-right: 50px;
+    }
+}
+@media screen and (max-width:1358px){
+    .header_text{
+        padding-left: 40px;
+    }
+}
+@media screen and (max-width:1175px){
+    .footer_right_address{
+        float: left;
+    }
+    .footer_right_address{
+        margin-top: 10px;   
+    }
+}
+@media screen and (max-width: 1100px){
+    .header_slide{
+        height: 180px;
+    }
+    .header_text{
+        margin-right: 0;
+    }
+    .header_text h2, .header_text h3{
+        font-size: 37px;
+    }
+    .header_text p{
+        font-size: 14px;
+    }
+}
+@media screen and (max-width:769px){
+    .header_text{
+        padding-left: 10px;
+        padding-right: 30px;
+    }
+}
+@media screen and (max-width:950px){
+    .header_right img:nth-child(1){
+        margin-right: 20px;
+    }
+    .menu_container div ul li ul li{
+        width: 80px;
+    }
+    #footer > div{
+        float: left;
+    }
+    #footer > div > h2{
+        display: none;
+    }
+    #footer div > a:nth-child(2){
+        margin-right: 0;
+    }
+}
+@media screen and (max-width:680px){
+    #header{
+        padding-left: 20px;
+    }
+    .header_right img:nth-child(1){
+        margin-right: 10px;
+    }
+    .menu_container div > ul > li{
+        font-size: 18px;
+    }
+    .menu_container div ul li ul li a{
+        font-size: 14px;
+    }
+    #footer .address{
+        padding: 20px 0 0 10%;
+    }
+    #footer > div:nth-child(1) a:nth-child(2){
+        margin-right: 0; margin-left: 10px;
+    }
+    .address_m_top{
+        margin-top: 10px;
+    }
+    .address .footer_right_address{
+        margin-right: 0;
+    }
+    .address div:nth-child(1) span:nth-child(4){
+        margin-right: 0;
+    }
+}
+@media screen and (max-width:432px){
+    .menu_container div ul li ul li:nth-child(5){
+        margin-top: 20px;
+    }
+}
+@media screen and (max-width:374px){
+    .header_right img:nth-child(1){
+        display: none;
+    }
+    .header_right img:nth-child(2){
+        margin-top: 5px;
+    }
+}
+
+/* container 부분 */
+@media screen and (max-width: 1860px){
+    .search_go{
+        width: 240px;
+    }
+    .text1{
+        width: 300px; 
+    }
+    .text2{
+        width: 150px;
+    }
+    .text3{
+        width: 420px;
+    }
+    .logoimg{
+        display: none;
+    }
+}
+@media screen and (max-width: 1720px){
+    .notice{
+        width: 100%;
+        margin-right: 0;
+    }
+    .media{
+        width: 100%;
+    }
+    .notice > a{
+        display: none;
+    }
+    .notice div{
+        width: calc(100% / 3 - 35px);
+    }
+    .notice > a{
+        right: 60px;
+    }
+    .media > a{
+        display: none;
+    }
+    .media div{
+        width: calc(100% / 2 - 40px);
+    }
+}
+
+@media screen and (max-width: 1540px){
+    .search_go{
+        width: 190px;
+    }
+    .text1{
+        width: 250px; 
+    }
+    .text2{
+        width: 150px;
+    }
+    .text3{
+        width: 320px;
+    }
+}
+@media screen and (max-width: 1358px){
+    .search{
+        padding-left: 110px;
+    }
+    .content{
+        padding-left: 110px;
+    }
+    .search_form{
+        display: block;
+        margin-top: 40px;
+        margin-bottom: 20px;
+    }
+    .search_go{
+        width: 22%;
+    }
+    .notice{
+        margin-right: 0;
+        width: 95%;
+    }
+    .media{
+        width: 95%;
+    }
+}
+@media screen and (max-width: 1100px){
+    
+    .search_title h3{
+        font-size: 25px;
+    }
+    .search input[type="radio"], .search label{
+        display: none;
+    }
+    .search input[type="text"], .text2{
+        width: 50%;
+    }
+    .search_go{
+        height: 60px; padding-top: 17px; width: 48%;
+    }
+    .text2{
+        margin-top: 10px; margin-bottom: 10px;
+    }
+    .search_go p{
+        font-size: 18px;
+    }
+    .notice div{
+        width: calc(100% / 2 - 40px);
+    }
+}
+@media screen and (max-width: 769px){
+    
+    .search{
+        padding-left: 70px;
+        padding-right: 50px;
+    }
+    .search input[type="text"], .text2{
+        width: 100%;
+    }
+    .content{
+        padding-left: 70px;
+        padding-right: 50px;
+    }
+    .notice div{
+        width: calc(100% - 24px);
+    }
+    .media div{
+        width: calc(100% - 24px);
+    }
+    .notice > a{
+        display: initial;
+        right: 18px;
+    }
+    .media > a{
+        display: initial;
+        right: 18px;
+    }
+}
+@media screen and (max-width: 440px){
+    .search{
+        padding-left: 40px;
+    }
+    .content{
+        padding-left: 40px;
+    }
+    .notice div p:nth-child(2), .media div p:nth-child(2){
+        font-size: 16px;
+        line-height: 20px;
+    }
+    .notice div p:nth-child(3), .media div p:nth-child(3){
+        font-size: 26px;
+        margin-bottom: 5px;
+    }
+    .notice div, .media div{
+        width: calc(100% - -19px);
+        padding: 21px 10px;
+    }
+    .notice > a{
+        right: -18px;
+    }
+    .media > a{
+        right: -18px;
+    }
+}
+
+/*-------------서브페이지------------------------------*/
+
+@media screen and (max-width:644px){
+    .sub_table table tbody tr td span strong{
+        font-size: 13px; 
+        font-weight: bold;
+        background: initial;
+        color: #333;
+        padding: 0;
+    }
+    .sub_title ul li{
+        width: calc(100% / 3 - 24px);
+    }
+    .sub_title ul li a{
+        width: initial;
+    }
+    .sub_table table tbody tr td:nth-child(2){
+        font-size: 14px;
+    }
+    .sub_table table tbody tr td{
+        font-size: 13px;
+    }
+    .title > div > h3{
+        font-size: 38px;
+    }
+}
+@media screen and (max-width: 465px){
+    .sub_search .sub_select input[type="text"]{
+        width: 230px;
+    }
+    .id_find{
+        width: 380px;
+    }
+    .id_find .changeId, .id_find .changePw{
+        width: calc(100% / 2);
+    }
+    .id_find_form form{
+        width: 380px;
+    }
+    .id_find_form form label{
+        margin-right: 44px;
+    }
+    .id_find_form form input[type="text"]{
+        width: 280px;
+    }
+    .id_find_form form .id_find_txt2{
+        width: calc(100% / 3 - 46px) !important;
+    }
+}
+@media screen and (max-width: 390px){
+    .title > div > h3{
+        font-size: 30px;
+    }
+    .sub_table{
+        margin-top: 80px;
+    }
+    .sub_select{
+        float: left;
+    }
+    .login_form > form > input[type="text"], .login_form > form > input[type="password"]{
+        width: 320px; display: block;
+    }   
+}

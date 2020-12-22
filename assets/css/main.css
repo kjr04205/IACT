@@ -1,0 +1,294 @@
+/*----------- visual slide ---------------*/
+.slide1{position: absolute; left: 0; top: 0; width: 100%; height: 718px;}
+.fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+@keyframes fade {
+    from {opacity: 0.3} 
+    to {opacity: 1}
+}
+
+/*-------------header 이미지변경 slide부분 ------------------*/
+.header_slide{height: 290px; width: 100%; position: relative; z-index: 999;}
+.header_slide > div{position: absolute; bottom: 0; right: 70px; text-align: right;}
+.header_slide > div > p{cursor: pointer;}
+.header_slide > div > p:nth-child(1){font-family: "payboocBold"; font-size: 24px; letter-spacing: -0.24px; font-weight: 800; margin-bottom: 37px;}
+.header_slide > div > p:nth-child(2){margin-bottom: 37px;}
+.header_slide > div > p:nth-child(2), .header_slide > div > p:nth-child(3){font-family: "payboocLight"; font-size: 12px; font-weight: 500;}
+
+/*------------------header 텍스트부분 -------------------------*/
+.header_text{position: relative; padding-left: 110px; display: inline-block; margin-right: 408px; overflow: hidden;}
+.header_text h2, .header_text h3{font-size: 72px; line-height: 1.18; letter-spacing: -1.8px;}
+.header_text h2{font-family: 'payboocBold'; font-weight: bold;}
+.header_text h3{font-family: 'payboocLight'; font-weight: 300;}
+.header_text p{font-family: 'NotoSansKR-Light'; padding: 47px 0 83px 0; font-size: 18px; letter-spacing: -0.9px; line-height: 1.44; font-weight: 300;}
+
+/*-----------------header 바로가기부분-------------------------*/
+.header_link{display: inline-block; position: relative; margin-top: 65px; z-index: 999;}
+.header_link > p{position: relative; font-family: 'payboocBold'; font-size: 22px; font-weight: bold;}
+.header_link > p::after{content: ""; position: absolute; background: #1c0872; width: 623px; height: 1px; left: 141px; top: 10px;}
+.header_link ul li{display: inline-block; margin-top: 53px; text-align: center; margin-right: 70px;}
+.header_link ul li:nth-child(5){margin-right: 0;}
+.header_link ul li a p{font-family: 'NotoSansKR-Regular'; font-size: 16px; letter-spacing: -0.8px;}
+.header_link ul li:nth-child(1) a p{margin-top: 34px;}
+.header_link ul li:nth-child(2) a p{margin-top: 25px;}
+.header_link ul li:nth-child(3) a p{margin-top: 21px;}
+.header_link ul li:nth-child(4) a p{margin-top: 31px;}
+.header_link ul li:nth-child(5) a p{margin-top: 19px;}
+
+/*---------------백그라운드 색상 -----------------*/
+.background{position: absolute; right: 0; top: -2px; background: #000; opacity: 53%; width: 843px; height: 720px;}
+
+/*전체 container 값*/
+.container{position: relative;}
+/*-------------------------실증DB검색 부분 -------------------------*/
+.search{padding: 55px 0 55px 180px; background: #30328f;}
+.search_title{display: inline-block; vertical-align: top;}
+.search_title h3{font-family: 'payboocBold'; font-size: 30px; font-weight: bold; padding-right: 55px;}
+
+.search_form{display: inline-block;}
+
+
+.search input[type="radio"]{width: 20px; height: 20px; margin-top: -1px; vertical-align: middle; margin-right: 2px; opacity: 50%;}
+.search label{font-size: 18px; letter-spacing: -0.9px; margin-right: 50px; font-family: 'NotoSansKR-Regular';}
+
+.search_box{margin-top: 26px; margin-right: 25px;}
+.search_box > input[type="text"]{opacity: 21%;}
+.search_box > input[type="text"], .search_box > select{height: 60px; font-size: 17px; padding-left: 23px; letter-spacing: -0.85px;}
+.search_box > select{background: rgb(91, 93, 166) url(../images/select_down.png) no-repeat 87%; color: #fff;} 
+/* .search_box > select::selected{color:#fff; background: url(../images/select_down.png) no-repeat 77%;} */
+.text1{width: 350px; color: #9a9bc0;}
+.text2{width: 200px;}
+.text3{width: 470px; color: #9a9bc0;}
+
+.search_go{display: inline-block; width: 300px; height: 110px; background: #1c0872; box-shadow: 0px 10px 14.9px 1.1px rgba(0, 0, 0, 0.35); padding-top: 41px; text-align: center;}
+.search_go p{display: inline-block; font-size: 24px; font-weight: 500;}
+
+/*------------------내용부분-------------------------------------------*/
+.content{color: #000; padding-left: 180px; padding-top: 60px;}
+.notice{position: relative; display: inline-block; width: 905px; margin-right: 60px; margin-bottom: 50px;}
+.notice > h3 > a{color: #000; font-size: 26px; letter-spacing: -1.3px; font-weight: bold;}
+.notice > a{position: absolute; top: 0; right: 28px;}
+.notice div{display: inline-block; width: calc(100% / 3 - 25px); height: 290px; border: 1px solid #e5e5e5; margin-right: 22px; margin-top: 27px; padding-left: 37px; padding-top: 41px;}
+.notice div:nth-child(3){border: 1px solid #30328f;}
+.notice div:nth-child(5){margin-right: 0;}
+.notice div p:nth-child(1){font-size: 14px; letter-spacing: -0.84px; color: #4e4e4e; margin-bottom: 35px;}
+.notice div p:nth-child(2){font-size: 20px; font-weight: 500; letter-spacing: -1.2px; color: #333; margin-bottom: 63px; line-height: 30px;}
+.notice div p:nth-child(3){font-size: 36px; font-weight: bold; color: #8d8c8c; margin-bottom: 9px; font-family: 'MyriadPro';}
+.notice div p:nth-child(4){font-size: 14px; color: #8d8c8c; font-family: 'MyriadPro';}
+.notice_box3 p:nth-child(2){margin-bottom: 31px !important;}
+
+.media{position: relative; display: inline-block; width: 595px; margin-bottom: 50px;}
+.media h3 > a{color: #000; width: 100%; font-size: 26px; letter-spacing: -1.3px;}
+.media > a{position: absolute; top: 0; right: 22px;}
+.media div{display: inline-block; width: calc(100% / 2 - 24px); height: 290px; border: 1px solid #e5e5e5; margin-right: 22px; margin-top: 27px; padding-left: 37px; padding-top: 41px;}
+.media div:nth-child(3){background: #e9f0f6;}
+.media div:nth-child(4){margin-right: 0; background: #f4f4f4;}
+.media div p:nth-child(1){font-size: 14px; letter-spacing: -0.84px; color: #4e4e4e; margin-bottom: 35px;}
+.media div p:nth-child(2){font-size: 20px; font-weight: 500; letter-spacing: -1.2px; color: #333; margin-bottom: 59px; line-height: 30px;}
+.media div p:nth-child(3){font-size: 36px; font-weight: bold; color: #8d8c8c; margin-bottom: 9px;}
+.media div p:nth-child(4){font-size: 14px; color: #8d8c8c;}
+
+/*-------------------------------회사로고 부분-----------------------*/
+
+.direction{display: inline-block; margin-right: 11px;}
+.direction > div{display: inline-block; width: 28px; height: 28px; background: #e6e6e6; border-radius: 15px; padding: 8px 11px 0 11px; margin-right: 10px;}
+
+.company{display: inline-block;}
+.company img{margin-right: 80px;}
+
+/*-------------------------------서브페이지 -------------------------------*/
+
+/*-------------------------------서브페이지 공지사항 게시판-------------------------------*/
+.sub_search{width: 100%; height: 48px; color: #1b1b1b;}
+.sub_search .count span{font-size: 17px; letter-spacing: -1.02px; line-height: 58px;}
+.sub_search .count span > span{color: #30328f; font-weight: bold;}
+.sub_search .sub_select{position: relative;}
+.sub_search .sub_select select, .sub_search .sub_select input[type="text"]{opacity: initial; background: #eee; height: 48px; font-size: 15px; padding-left: 15px;}
+.sub_search .sub_select select{width: 110px; background: url(../images/sub_select.png) no-repeat 77%; background-color: #eee;}
+.sub_search .sub_select input[type="text"]{width: 300px; padding: 15px;}
+.sub_search .sub_select button{position: absolute; width: 21px; height: 21px; top: 15px; right: 20px; background: url(../images/sub_search.png);}
+
+/*---------------------------------공지사항 테이블 ------------------------------------------*/
+.sub_table{width: 100%; margin-top: 12px; margin-bottom: 23px; border-top: 1px solid #30328f; border-bottom: 1px solid #30328f;}
+.sub_table table{width: 100%;}
+.sub_table table thead tr{background: #f4f4f4;}
+.sub_table table thead tr th{color: #333; font-size: 14px; letter-spacing: -0.84px;  font-weight: bold; padding-top: 19px; padding-bottom: 17px;}
+.sub_table table tbody tr td{color: #333; letter-spacing: -0.96px; border-top: 1px solid #e5e5e5; border-bottom: 1px solid #e5e5e5; padding: 22px 0; font-size: 15px;}
+.sub_table table tbody tr td:nth-child(1){font-size: 14px;}
+.sub_table table tbody tr td:nth-child(2){font-size: 16px; text-align: left; cursor: pointer;}
+.sub_table table tbody tr td span strong{padding: 1px 10px; border-radius: 12px; background: #707070; color: #fff; font-weight: normal; font-size: 14px;}
+.sub_table table tbody tr:nth-child(1) td:nth-child(2){font-weight: bold; color: #30328f;}
+.sub_table table tbody tr:nth-child(1) td:nth-child(2) img{margin-left: 8px; margin-top: -3px;}
+
+.table_arrow div{display: inline-block; width: 40px; height: 40px; border: 1px solid #e5e5e5; padding-top: 13px;}
+.table_arrow .table_arrow_number1{background: #434343; color: #fff;}
+.table_arrow .table_arrow_number2{color: #707070;}
+
+/*---------------------공지사항 테이블 제목 클릭시 content ---------------------*/
+.table_content{color: black; border-top: 1px solid #30328f; border-bottom: 1px solid #30328f; padding: 31px 0 57px 21px; margin-top: 109px; text-align: left;}
+.table_content div h3{font-size: 24px; color: #1c0872; letter-spacing: -1.44px; font-weight: bold; padding-bottom: 57px;}
+
+.table_content div:nth-child(2){padding-bottom: 34px;}
+.table_content div:nth-child(2) span{position: relative; font-size: 14px; letter-spacing: -0.7px; padding-right: 35px;}
+.table_content div:nth-child(2) span:nth-child(1){font-weight: bold;}
+.table_content div:nth-child(2) span:nth-child(3){padding-right: 0;}
+.table_content div:nth-child(2) span::after{content: ""; position: absolute; width: 1px; height: 15px; background: #dcdcdc; left: 50px;}
+.table_content div:nth-child(2) span:nth-child(3)::after{content: none;}
+
+.table_content div:nth-child(3)::before{content: ""; position: absolute; width: 1560px; height: 1px; background: #e5e5e5; left: 175px;}
+.table_content div:nth-child(3)::after{content: ""; position: absolute; width: 1560px; height: 1px; background: #e5e5e5; left: 175px;}
+.table_content div:nth-child(3) p{font-size: 15px; letter-spacing: -0.75px; line-height: 24px; padding-top: 32px; padding-bottom: 116px;}
+
+.sub_title > button{width: 110px; height: 48px; font-size: 15px; letter-spacing: -0.9px; font-weight: bold; color: #fff; margin-top: 27px; cursor: pointer;}
+.sub_title > button:nth-child(1){color: #fff;}
+
+/*-----------------로그인 페이지---------------------*/
+.login_form{width: 360px; margin: 0 auto; padding-top: 86px;}
+.login_form_circle{width: 15px; height: 15px; background: #30328f; border-radius: 50%; margin: 0 auto;}
+.login_form > form > input[type="text"], .login_form > form > input[type="password"]{width: 360px; height: 56px; background: #eee; opacity: 1; padding: 20px 0 20px 19px; font-size: 18px; letter-spacing: -0.96px; color: #4e4e4e;}
+.login_form > form > input[type="text"]{margin-top: 46px; margin-bottom: 8px;}
+.login_form > form > input[type="checkbox"]{background: #eee; margin-top: 16px; vertical-align: middle;}
+.login_form > form > input[type="checkbox"] + label{vertical-align: bottom; color: #444; font-size: 14px;}
+.login_form > form > button{display: block; width: 360px; height: 56px; background: #30328f; font-size: 16px; color: #fff; margin-top: 17px;}
+.login_form_txt{margin-top: 20px;}
+.login_form_txt a p{font-size: 14px; color: #30328f; font-weight: bold; margin-bottom: 38px;}
+.login_form_txt p{text-align: center;}
+.login_form_txt > p{line-height: 24px;}
+.login_form_txt > p, .login_form_txt > p > b{font-size: 15px; letter-spacing: -0.9px; color: #333;}
+
+/*---------------------아이디/비밀번호 찾기 페이지 --------------------------*/
+.id_find{width: 550px; margin: 0 auto; margin-top: 58px;}
+.id_find .changeId, .id_find .changePw{width: 275px; height: 38px; border-bottom: 2px solid #bfbfbf; text-align: center; color: #333; cursor: pointer; margin-bottom: 36px;}
+.id_find div:nth-child(1){border-bottom: 2px solid #30328f; color: #30328f;}
+.id_find div span{font-size: 16px; font-weight: bold;}
+.id_find_form > p{font-size: 14px; color: #333; text-align: center; letter-spacing: -0.84px; margin-bottom: 44px; line-height: 20px;}
+.id_find_form form{color: #4e4e4e; width: 417px; margin: 0 auto;}
+.id_find_form form label{font-size: 15px; letter-spacing: -0.9px; color: #4e4e4e; margin-right: 71px;}
+.id_find_form form .id_find_txt2{width: 96px !important; margin-right: 4px; margin-top: 12px;}
+.id_find_form form input[type="text"]{width: 300px; height: 48px; background: #eee; padding: 20px; font-size: 16px;}
+.id_find_form form .id_find_txt2_distance{margin-right: 18px;}
+.id_find_form form .id_find_txt3, .id_find_form form .id_find_txt5{margin-top: 12px;}
+.id_find_form form button{width: 99%; height: 60px; margin-top: 24px; background: #30328f; font-size: 16px; color: #fff;}
+
+/*아이디 찾기 클릭했을 시.*/
+.id_find_form > p:nth-child(1){margin-bottom: 68px;}
+.id_find_form > p:nth-child(2){margin-bottom: 26px; font-size: 15px; font-weight: 500;}
+.id_find_form > p:nth-child(3){margin-bottom: 86px; font-size: 20px; letter-spacing: -1.2px; color: #30328f;}
+
+/*사업소개 페이지*/
+.sub_container_top{display:inline-block; width:100%; height:450px; padding-top: 60px; background: url(../images/introduce_visual.png) no-repeat;}
+.sub_container .sub_container_top .sub_container_circle1{width: 90px; height: 90px; border: 1px solid #e4e4e4; border-radius: 50%; display: inline-block; padding-top: 16px; margin-bottom: 19px;}
+.sub_container .sub_container_top .sub_container_circle1 div{width: 56px; height: 56px; background: #30328f; border-radius: 50%; display: inline-block; padding-top: 16px; font-size: 18px;}
+.sub_container .sub_container_top .sub_container_circle1_txt p{font-size: 34px; color: #30328f; letter-spacing: -0.85px; font-weight: 500;}
+.sub_container .sub_container_top .sub_container_circle2{display:inline-block; width:70px; height:70px; background: #30328f; border-radius: 50%; margin-top: 50px;}
+.sub_container .sub_container_top .sub_container_circle2 p{font-size: 18px; letter-spacing: -1.08px; padding-top: 24px;}
+.sub_container .sub_container_top .sub_container_circle2_txt{margin-top: 15px;}
+.sub_container .sub_container_top .sub_container_circle2_txt p{font-size: 18px; line-height: 1.4; letter-spacing: -0.9px; color: #333; font-weight: 500;}
+
+.sub_container .sub_container_bottom{margin: 70px 0;}
+.sub_container .sub_container_bottom .sub_container_bottom_circle div{display: inline-block;}
+.sub_container .sub_container_bottom .sub_container_bottom_circle div:nth-child(2){width: 90px; height: 90px; background: #30328f; color: #fff; font-size: 18px; letter-spacing: -1.08px; border-radius: 50%; padding-top: 35px; margin: 0 23px 0 21px;}
+.sub_container .sub_container_bottom .title_line{width: calc(100% / 2 - 80px); height: 1px; background: #30328f;}
+.sub_container_bottom .sub_container_bottom_txt{color: #333; margin-top: 29px; margin-bottom: 50px;}
+.sub_container_bottom .sub_container_bottom_txt p, .sub_container_bottom_txt span{font-size: 20px; line-height: 1.6; letter-spacing: -1.2px;}
+.sub_container_bottom .sub_container_bottom_txt span:nth-child(1){color: #30328f; font-weight: bold;}
+.sub_container_bottom .sub_container_bottom_box{width: 100%; height: 250px; margin-bottom: 79px;}
+.sub_container_bottom .sub_container_bottom_box div{display: inline-block; width: calc(100% / 4 - 26px); height: 250px; background: #f4f4f4; margin-right: 26px; text-align: initial;}
+.sub_container_bottom .sub_container_bottom_box div:nth-child(1) img{padding: 41px 0 28px 50px;}
+.sub_container_bottom .sub_container_bottom_box div:nth-child(2) img{padding: 50px 0 49px 55px;}
+.sub_container_bottom .sub_container_bottom_box div:nth-child(3) img{padding: 34px 0 22px 56px;}
+.sub_container_bottom .sub_container_bottom_box div:nth-child(4) img{padding: 44px 0 45px 57px;}
+.sub_container_bottom .sub_container_bottom_box div p{font-size: 17px; letter-spacing: -1.02px; color: #333; text-align: right; padding-right: 42px; line-height: 1.4; font-weight: 500;}
+.sub_container_bottom .sub_container_bottom_box div:nth-child(4){margin-right: 0;}
+.sub_container_bottom .sub_container_bottom_content{width: 100%; height: auto; margin-top: 57px; margin-bottom: 150px;}
+.sub_container_bottom .sub_container_bottom_content div{display: inline-block; width: calc(100% / 5 - 75px); height: 158px; margin-right: 91px; text-align: left;}
+.sub_container_bottom .sub_container_bottom_content div:nth-child(5){margin-right: 0;}
+.sub_container_bottom .sub_container_bottom_content div p:nth-child(1){font-size: 22px; letter-spacing: -1.32px; color: #30328f; padding-bottom: 30px; font-weight: bold; line-height: 1.1;}
+.sub_container_bottom .sub_container_bottom_content div p:nth-child(2){font-size: 17px; color: #333; letter-spacing: -1.02px; line-height: 1.3;}
+.sub_container_bottom .sub_container_bottom_content div:nth-child(1) p:nth-child(1), .sub_container_bottom .sub_container_bottom_content div:nth-child(5) p:nth-child(1){padding-bottom: 54px;}
+
+/*---------------사업소개 > 조직도-----------------*/
+.sub_container_organization{text-align: center;}
+
+.sub_container_organization .sub_container_organization_circle1{display:inline-block; width: 230px; height: 230px; border: 10px solid #30328f; border-radius: 50%;}
+.sub_container_organization .sub_container_organization_circle1 img{padding: 85px 12px}
+.sub_container_organization .sub_container_organization_txt1{text-align: left; margin-left: 490px;}
+.sub_container_organization .sub_container_organization_txt1 span{display:inline-block; font-size: 20px; letter-spacing: -1px; color: #ca171d; font-weight: bold;}
+.sub_container_organization .sub_container_organization_txt1 span:nth-child(2){width: 111px; height: 1px; background: #30328f;}
+.sub_container_organization .sub_container_organization_txt1 span:nth-child(3){width: 1px; height: 111px; background: #30328f; margin: 5px 0;}
+
+.sub_container_organization .sub_container_organization_textbox{display: inline-block; width: 500px; height: 140px; border-radius: 20px; background: #30328f;}
+.sub_container_organization .sub_container_organization_textbox div:nth-child(1){padding: 26px 130px 19px 130px;}
+.sub_container_organization .sub_container_organization_textbox div:nth-child(2){width: 500px; height: 1px; background: #fff;}
+.sub_container_organization .sub_container_organization_textbox div:nth-child(3) p{font-size: 20px; font-weight: bold; letter-spacing: -0.5px; color: #fff; padding: 20px;}
+.sub_container_organization .sub_container_organization_txt2{text-align: right; margin-right: 500px;}
+.sub_container_organization .sub_container_organization_txt2 span{display:inline-block; font-size: 20px; letter-spacing: -1px; color: #30328f; font-weight: bold;}
+.sub_container_organization .sub_container_organization_txt2 span:nth-child(1){width: 1px; height: 130px; background: #30328f; margin: 5px 0;}
+.sub_container_organization .sub_container_organization_txt2 span:nth-child(2){width: 111px; height: 1px; background: #30328f;}
+.sub_container_organization .sub_container_organization_circle2{margin-bottom: 170px;}
+.sub_container_organization .sub_container_organization_circle2 div{display: inline-block;}
+.sub_container_organization .sub_container_organization_circle2 div div{display: inline-block; width: 150px; height: 150px; background: #e9f0f6; color: #30328f; font-size: 18px; letter-spacing: -1.08px; border-radius: 50%; padding-top: 65px; font-weight: bold;}
+.sub_container_organization .sub_container_organization_circle2 div p{font-size: 20px; font-weight: bold; color: #1b1b1b; line-height: 1.8;}
+.sub_container_organization .sub_container_organization_circle2 > div:nth-child(2){margin: 0 64px;}
+
+/*---------------사업소개 > 센터소개-----------------*/
+.sub_container_center{margin-top: 110px;}
+.sub_container_center .sub_container_center_circle{display: inline-block; width: 20px; height: 20px; background: #30328f; border-radius: 50%;}
+.sub_container_center div:nth-child(2) h4{font-size: 30px; color: #434343; line-height: 2; letter-spacing: -1.8px;}
+.sub_container_center div:nth-child(3) p{font-size: 18px; font-weight: 500; color: #1c0872; letter-spacing: -0.9px; line-height: 1.4;}
+
+
+.sub_container_center .sub_container_center_box{width:100%; height:750px; background: url(../images/center_visual.png) no-repeat; margin-top: 74px; padding-top: 106px; margin-bottom: 150px;}
+.sub_container_center .sub_container_center_box div:nth-child(2) h4{color: #fff; line-height: 2.2;}
+.sub_container_center .sub_container_center_box div:nth-child(3) p{font-size: 26px; color: #30328f; font-weight: bold; line-height: 1.6;}
+.sub_container_center .sub_container_center_box .sub_container_center_inner_box div{display: inline-block; width: calc(100% / 4 - 70px); height: 320px; opacity: 60%; margin-top: 100px; background: #fff; margin-right: 20px; padding: 51px 0 0 51px; text-align: left;}
+.sub_container_center .sub_container_center_box .sub_container_center_inner_box div:nth-child(4){margin-right: 0;}
+.sub_container_center .sub_container_center_box .sub_container_center_inner_box div h5{font-size: 28px; color: #30328f; font-weight: bold; letter-spacing: -1.68px;}
+.sub_container_center .sub_container_center_box .sub_container_center_inner_box div p{font-size: 16px; letter-spacing: -0.8px; color: #333; font-weight: 500; padding-top: 42px; line-height: 1.6;}
+
+/*---------------------- 시험검사 DB페이지 -----------*/
+.sub_container_inspection form{background: #f0f2f7; padding: 46px 0 46px 70px; border: 1px solid #d5ddee; text-align: left; margin-top: -1px;}
+.sub_container_inspection .sub_container_inspection_search > div{display: inline-block; margin-top: -8px;}
+.sub_container_inspection .sub_container_inspection_search label{font-size: 22px; color: #30328f; letter-spacing: -1.32px; margin-right: 40px; font-weight: bold;}
+.sub_container_inspection .sub_container_inspection_search input[type="text"]{width: 420px; height: 48px; color: #a2a2a2; font-size: 15px; background: #fff; padding: 15px; margin-right: 7px;}
+.sub_container_inspection .sub_container_inspection_search select.rating{width: 200px; height: 48px; color: #333; letter-spacing: -0.9px; font-weight: bold; padding: 18px 0 16px 16px; margin-right: 7px; background: #fff url(../images/sub_select.png) no-repeat 77%;}
+.sub_container_inspection .sub_container_inspection_search button{width: 50px; height: 48px; background: #30328f; margin-right: 7px; padding-top: 5px;}
+.sub_container_inspection .sub_container_inspection_search select.detail_search{width: 150px; height: 48px; background: #434343 url(../images/select_down.png) no-repeat 85%; color: #fff; font-size: 16px; letter-spacing: -0.96px; padding-left: 30px;}
+
+.sub_container_inspection .sub_container_inspection_detail label{color: #30328f; letter-spacing: -0.96px; font-size: 15px; font-weight: 500;}
+.sub_container_inspection .sub_container_inspection_detail label.detail_search_title{display: inline-block; font-size: 16px; font-weight: bold; margin-right: 35px;}
+.sub_container_inspection .sub_container_inspection_detail div{display: inline-block; vertical-align: top;}
+.sub_container_inspection .sub_container_inspection_detail div label{display: block; margin-bottom: 6px;}
+.sub_container_inspection .sub_container_inspection_detail input[type="text"]{color: #a2a2a2; font-size: 15px; width: 222px; height: 48px; background: #fff; margin-right: 8px; padding: 15px;}
+.sub_container_inspection .sub_container_inspection_detail select{width: 116px; height: 48px; color: #333; font-size: 15px; letter-spacing: -0.9px; font-weight: 500; padding: 15px; background: #fff url(../images/sub_select.png) no-repeat 77%;}
+
+.sub_container_inspection_detail .sub_container_inspection_detail_m{margin-left: 112px;}
+.sub_container_inspection_detail .sub_container_inspection_detail_m input[type="text"]{width: 686px !important;}
+.sub_container_inspection_detail .sub_container_inspection_detail_bottom{margin-top: 15px;}
+.sub_container_inspection_detail .sub_container_inspection_detail_bottom input[type="text"]{width: 582px;}
+
+.sub_container_inspection_detail_button{margin-left: 110px; margin-top: 15px; width: 86%;}
+.sub_container_inspection_detail_button button{letter-spacing: -0.9px; color: #fff;}
+.sub_container_inspection_detail_button .detail_button1{width: 100px; height: 40px; border-radius: 20px; background: #434343; font-size: 15px; letter-spacing: -0.9px; color: #fff;}
+.sub_container_inspection_detail_button .detail_button2{width: 200px; height: 48px; background: #30328f; font-size: 18px; float: right;}
+
+.sub_container_inspection_DB{margin-top: 40px; position: relative;}
+.sub_container_inspection_DB > div{width: 100%;}
+.sub_container_inspection_DB > div > div{display: inline-block; width: calc(100% / 5 - 14px); height: 80px; background: #cdd7eb; border-radius: 20px; padding: 20px 33px 15px 42px; margin-right: 15px; cursor: pointer;}
+.sub_container_inspection_DB > div > div:nth-child(1){background: #6266c0;}
+.sub_container_inspection_DB > div > div:nth-child(1) > p{color: #fff;}
+.sub_container_inspection_DB > div > div:nth-child(5){margin-right: 0;}
+.sub_container_inspection_DB > div > div > img{float: left;}
+.sub_container_inspection_DB > div > div > p{display: inline-block; float: right; padding-top: 12px; font-size: 20px; letter-spacing: -1px; color: #333;}
+.sub_container_inspection_DB .DB_list{width: 91%;}
+.sub_container_inspection_DB .DB_list > div{margin-bottom: 30px;}
+
+/*시험검사DB 테이블 우측 버튼*/
+.table_right button{display: block; width: 130px; height: 40px; color: #333; background: #6266c0; position: absolute; top: 118px; right: 0; letter-spacing: -0.9px; font-weight: bold; color: #fff; border-radius: 0 15px 15px 0;}
+.table_right button:nth-child(2), .table_right button:nth-child(3){background: #fff; border: 2px solid #cdd7e6; color: #30328f;}
+.table_right button:nth-child(2){top: 166px;}
+.table_right button:nth-child(3){top: 214px;}

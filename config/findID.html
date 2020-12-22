@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>실증DB</title>
+<!-- css:: -->
+    <link rel="stylesheet" href="../assets/css/global.css">
+
+<!-- javaScript::-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="../assets/js/main.js"></script>
+</head>
+<body>
+    
+    <header id="header" class="sub_header">
+        <div class="header_inner">
+            <div class="header_left">
+                <h1>
+                    <a href="../index.html">
+                        <img src="../assets/images/sub_logo.png" alt="첨단정보통신융합산업기술원">
+                    </a>
+                </h1>
+            </div>
+
+            <div class="header_mid">
+                <ul class="gnb sub_gnb">
+                    <li>
+                        <a href="introduce.html">사업소개</a>
+
+                        <ul style="display: none;" class="lnb">
+                            <li>
+                                <a href="introduce.html">사업소개</a>
+                            </li>
+
+                            <li>
+                                <a href="introduceCT.html">센터소개</a>
+                            </li>
+
+                            <li>
+                                <a href="#link">보유장비</a>
+                            </li>
+
+                            <li>
+                                <a href="introduceOrga.html">조직도</a>
+                            </li>
+
+                            <li>
+                                <a href="#link">오시는길</a>
+                            </li>
+                        </ul>
+                    </li>
+
+                    <li>
+                        <a href="technical.html">실증지원</a>
+
+                        <ul style="display: none;" class="lnb">
+                            <li>
+                                <a href="technical.html">기술자료</a>
+                            </li>
+
+                            <li>
+                                <a href="#link">제조지원</a>
+                            </li>
+
+                            <li>
+                                <a href="#link">컨설팅</a>
+                            </li>
+
+                            <li>
+                                <a href="#link">협력기관</a>
+                            </li>
+                        </ul>
+                    </li>
+
+                    <li>
+                        <a href="inspection.html">실증 데이터베이스(DB)</a>
+
+                        <ul style="display: none;" class="lnb">
+                            <li>
+                                <a href="inspection.html">시험검사 DB</a>
+                            </li>
+
+                            <li>
+                                <a href="#link">제조공정 DB</a>
+                            </li>
+
+                            <li>
+                                <a href="#link">임상시험 DB</a>
+                            </li>
+
+                            <li>
+                                <a href="#link">보험급여 DB</a>
+                            </li>
+                        </ul>
+                    </li>
+                    
+                    <li>
+                        <a href="#link">해외DB</a>
+                    </li>
+
+                    <li>
+                        <a href="notice.html">이용안내</a>
+
+                        <ul style="display: none;" class="lnb">
+                            <li>
+                                <a href="notice.html">공지사항</a>
+                            </li>
+
+                            <li>
+                                <a href="#link">언론보도</a>
+                            </li>
+
+                            <li>
+                                <a href="#link">Q＆A</a>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="header_right">
+                <img src="../assets/images/sub_login.png" alt="로그인이미지" onclick="location.href='login.html'">
+                <img src="../assets/images/sub_menu.png" alt="메뉴이미지" class="go_menu">
+            </div>
+
+            <div class="menu_container" style="display: none;">
+                <div>
+                    <ul>
+                        <li>사업소개
+                            <ul>
+                                <li><a href="introduce.html">사업소개</a></li>
+                                <li><a href="introduceCT.html">센터소개</a></li>
+                                <li><a href="#link">보유장비</a></li>
+                                <li><a href="introduceOrga.html">조직도</a></li>
+                                <li><a href="#link">오시는길</a></li>
+                            </ul>
+                        </li>
+
+                        <li>실증지원
+                            <ul>
+                                <li><a href="technical.html">기술자료</li></a>
+                                <li><a href="#link">제조지원</li></a>
+                                <li><a href="#link">컨설팅</li></a>
+                                <li><a href="#link">협력기관</li></a>
+                            </ul>
+                        </li>
+
+                        <li>실증 데이터베이스(DB)
+                            <ul>
+                                <li><a href="inspection.html">시험검사 DB</li></a>
+                                <li><a href="#link">제조공정 DB</li></a>
+                                <li><a href="#link">임상시험 DB</li></a>
+                                <li><a href="#link">보험급여 DB</li></a>
+                            </ul>
+                        </li>
+
+                        <li>해외DB
+                            <ul>
+                                <li><a href="#link">해외DB</a></li>
+                            </ul>
+                        </li>
+
+                        <li>이용안내
+                            <ul>
+                                <li><a href="notice.html">공지사항</li></a>
+                                <li><a href="#link">언론보도</li></a>
+                                <li><a href="#link">Q&A</li></a>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </header>
+    
+    <div class="title">
+        <div>
+            <h3>아이디/비밀번호 찾기</h3>
+        </div>
+
+    </div>
+
+    <div class="id_find">
+        <div class="fl-l changeId">
+            <span>아이디</span>
+        </div>
+
+        <div class="fl-r changePw">
+            <span>비밀번호</span>
+        </div>
+        
+        <div class="id_find_form id_find_form_change">
+            <p>가입하신 아이디는 아래와 같습니다.</p>
+            <p>아이디</p>
+            <p>admin</p>
+
+            <form action="">
+                <button type="button" class="button_change_go">비밀번호 찾기</button>
+            </form>
+        </div>
+
+        <div class="id_find_form pw_find_form_change" style="display: none;">
+            <p>회원정보에 등록된 정보를 입력해 주세요.<br>가입시 입력하신 이메일로 임시 비밀번호를 발송해드립니다.</p>
+            <form action="">
+                <label for="id_find_txt1">기업명</label>
+                <input type="text" id="id_find_txt1" name="id_find_txt1">
+
+                <label for="id_find_txt2" class="id_find_txt2_distance">사업자등록번호</label>
+                <input type="text" id="id_find_txt2" name="id_find_txt2" class="id_find_txt2">
+                <input type="text" id="id_find_txt3" name="id_find_txt3" class="id_find_txt2">
+                <input type="text" id="id_find_txt4" name="id_find_txt4" class="id_find_txt2">
+
+                <label for="id_find_txt5">이메일</label>
+                <input type="text" id="id_find_txt5" name="id_find_txt5" class="id_find_txt5">
+
+                <button type="button" class="btnalert">비밀번호 찾기</button>
+            </form>
+        </div>
+    </div>
+
+    <footer id="footer">
+        <div>
+            <h2>
+                <img src="../assets/images/ft_logo.png" alt="IACT로고이미지">
+            </h2>
+
+            <div class="fl-r footer_right">
+                <a href="#link">개인정보처리방침</a>
+                <a href="#link">이메일무단수집거부</a>
+            </div>
+        </div>
+        
+        <div class="address">
+            <address class="fl-l">
+                <span>Tel</span>
+                <a href="tel:1566-9778"><span>1566-9778</span></a>
+                <a href="tel:053-217-3456"><span>&#40;053-217-3456&#41;</span></a>
+                <span>Fax</span>
+                <span>053-289-4800</span>
+                <div class="address_m_top">
+                    <span>주소</span>
+                    <span>&#40;우&#41;41061 대구시 동구 동대로 70</span>
+                </div>
+            </address>
+
+            <div class="fl-r footer_right_address">
+                <span>Copyright &copy;</span>
+                <span>medi3dp.or.kr.</span>
+                <span>All rights reserved</span>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

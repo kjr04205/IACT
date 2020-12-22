@@ -1,0 +1,419 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>실증DB</title>
+<!-- css:: -->
+    <link rel="stylesheet" href="../assets/css/global.css">
+
+<!-- javaScript::-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="../assets/js/main.js"></script>
+</head>
+<body>
+    <header id="header" class="sub_header">
+        <div class="header_inner">
+            <div class="header_left">
+                <h1>
+                    <a href="../index.html">
+                        <img src="../assets/images/sub_logo.png" alt="첨단정보통신융합산업기술원">
+                    </a>
+                </h1>
+            </div>
+
+            <div class="header_mid">
+                <ul class="gnb sub_gnb">
+                    <li>
+                        <a href="introduce.html">사업소개</a>
+
+                        <ul style="display: none;" class="lnb">
+                            <li>
+                                <a href="introduce.html">사업소개</a>
+                            </li>
+
+                            <li>
+                                <a href="introduceCT.html">센터소개</a>
+                            </li>
+
+                            <li>
+                                <a href="#link">보유장비</a>
+                            </li>
+
+                            <li>
+                                <a href="introduceOrga.html">조직도</a>
+                            </li>
+
+                            <li>
+                                <a href="#link">오시는길</a>
+                            </li>
+                        </ul>
+                    </li>
+
+                    <li>
+                        <a href="technical.html">실증지원</a>
+
+                        <ul style="display: none;" class="lnb">
+                            <li>
+                                <a href="technical.html">기술자료</a>
+                            </li>
+
+                            <li>
+                                <a href="#link">제조지원</a>
+                            </li>
+
+                            <li>
+                                <a href="#link">컨설팅</a>
+                            </li>
+
+                            <li>
+                                <a href="#link">협력기관</a>
+                            </li>
+                        </ul>
+                    </li>
+
+                    <li>
+                        <a href="inspection.html">실증 데이터베이스(DB)</a>
+
+                        <ul style="display: none;" class="lnb">
+                            <li>
+                                <a href="inspection.html">시험검사 DB</a>
+                            </li>
+
+                            <li>
+                                <a href="#link">제조공정 DB</a>
+                            </li>
+
+                            <li>
+                                <a href="#link">임상시험 DB</a>
+                            </li>
+
+                            <li>
+                                <a href="#link">보험급여 DB</a>
+                            </li>
+                        </ul>
+                    </li>
+                    
+                    <li>
+                        <a href="#link">해외DB</a>
+                    </li>
+
+                    <li>
+                        <a href="notice.html">이용안내</a>
+
+                        <ul style="display: none;" class="lnb">
+                            <li>
+                                <a href="notice.html">공지사항</a>
+                            </li>
+
+                            <li>
+                                <a href="#link">언론보도</a>
+                            </li>
+
+                            <li>
+                                <a href="#link">Q＆A</a>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="header_right">
+                <img src="../assets/images/sub_login.png" alt="로그인이미지" onclick="location.href='login.html'">
+                <img src="../assets/images/sub_menu.png" alt="메뉴이미지" class="go_menu">
+            </div>
+
+            <div class="menu_container" style="display: none;">
+                <div>
+                    <ul>
+                        <li>사업소개
+                            <ul>
+                                <li><a href="introduce.html">사업소개</a></li>
+                                <li><a href="introduceCT.html">센터소개</a></li>
+                                <li><a href="#link">보유장비</a></li>
+                                <li><a href="introduceOrga.html">조직도</a></li>
+                                <li><a href="#link">오시는길</a></li>
+                            </ul>
+                        </li>
+
+                        <li>실증지원
+                            <ul>
+                                <li><a href="technical.html">기술자료</li></a>
+                                <li><a href="#link">제조지원</li></a>
+                                <li><a href="#link">컨설팅</li></a>
+                                <li><a href="#link">협력기관</li></a>
+                            </ul>
+                        </li>
+
+                        <li>실증 데이터베이스(DB)
+                            <ul>
+                                <li><a href="inspection.html">시험검사 DB</li></a>
+                                <li><a href="#link">제조공정 DB</li></a>
+                                <li><a href="#link">임상시험 DB</li></a>
+                                <li><a href="#link">보험급여 DB</li></a>
+                            </ul>
+                        </li>
+
+                        <li>해외DB
+                            <ul>
+                                <li><a href="#link">해외DB</a></li>
+                            </ul>
+                        </li>
+
+                        <li>이용안내
+                            <ul>
+                                <li><a href="notice.html">공지사항</li></a>
+                                <li><a href="#link">언론보도</li></a>
+                                <li><a href="#link">Q&A</li></a>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </header>
+    
+    <div class="title">
+        <div>
+            <h3>이용안내</h3>
+        </div>
+    </div>
+
+    <div class="sub_title">
+        <ul>
+            <li>
+                <a href="#link" class="sub_background">공지사항</a>
+            </li>
+
+            <li>
+                <a href="#link">언론보도</a>
+            </li>
+
+            <li>
+                <a href="#link">Q&amp;A</a>
+            </li>
+        </ul>
+        
+        <h3>공지사항</h3>
+
+        <div class="sub_search">
+            <div class="count fl-l">
+                <span>총 <span>4</span>건</span>
+            </div>
+
+            <div class="sub_select fl-r">
+                <select name="searchBox1" id="searchBox1">
+                    <option value="0">전체</option>
+                    <option value="0">제목</option>
+                    <option value="0">내용</option>
+                </select>
+
+                <input type="text" id="searchBox2" name="searchBox2" value placeholder="검색어를 입력해주세요">
+                <button type="button">
+                    <span class="sr-only">검색아이콘</span>
+                </button>
+            </div>
+        </div>
+
+        <div class="sub_table">
+            <table>
+                <caption class="sr-only">공지사항 게시판입니다. 번호, 제목, 작성자, 조회, 등록일로 구분하여 설명합니다.</caption>
+
+                <colgroup>
+                    <col width="9%">
+                    <col width="65%">
+                    <col width="8%">
+                    <col width="8%">
+                    <col width="10%">
+                </colgroup>
+
+                <thead>
+                    <tr>
+                        <th>번호</th>
+                        <th>제목</th>
+                        <th>작성자</th>
+                        <th>조회</th>
+                        <th>등록일</th>
+                    </tr>
+                </thead>
+
+                <tbody>
+                    <tr>
+                        <td>
+                            <span>
+                                <strong>공지</strong>
+                            </span>
+                        </td>
+                        <td class="notice1">
+                            [교육안내]Inventor를 활용한 3D모델링 및 3D프린터 활용 교육 안내(무료수강) (온,오프라인)
+                            <img src="../assets/images/file.png" alt="파일다운이미지">
+                        </td>
+                        <td>홍길동</td>
+                        <td>6278</td>
+                        <td>2020-11-04</td>
+                    </tr>
+
+                    <tr>
+                        <td>1</td>
+                        <td class="notice1">[교육안내]Inventor를 활용한 3D모델링 및 3D프린터 활용 교육 안내(무료수강) (온,오프라인)</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    
+                    <tr>
+                        <td>2</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+
+                    <tr>
+                        <td>3</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+
+                    <tr>
+                        <td>4</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+
+                    <tr>
+                        <td>5</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+
+                    <tr>
+                        <td>6</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+
+                    <tr>
+                        <td>7</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+
+                    <tr>
+                        <td>8</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+
+                    <tr>
+                        <td>9</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        
+        <div class="table_arrow">
+            <div class="table_arrow_left2">
+                <img src="../assets/images/list_left2.png" alt="목록왼쪽두번이동">
+            </div>
+
+            <div class="table_arrow_left1">
+                <img src="../assets/images/list_left1.png" alt="목록왼쪽한번이동">
+            </div>
+
+            <div class="table_arrow_number1">
+                1
+            </div>
+
+            <div class="table_arrow_number2">
+                2
+            </div>
+
+            <div class="table_arrow_right1">
+                <img src="../assets/images/list_right1.png" alt="목록오른쪽한번이동">
+            </div>
+
+            <div class="table_arrow_right2">
+                <img src="../assets/images/list_right2.png" alt="목록오른쪽두번이동">
+            </div>
+        </div>
+
+        <div class="table_content" style="display: none;">
+            <div>
+                <h3>[교육안내]Inventor를 활용한 3D모델링 및 3D프린터 활용 교육 안내(무료수강) (온,오프라인)</h3>
+            </div>
+
+            <div>
+                <span>홍길동</span>
+                <span>3567</span>
+                <span>2020-11-04 15:25</span>
+            </div>
+
+            <div>
+                <p>
+                    본 교육은 오프라인, 온라인 실시간 동시 교육입니다.<br>
+                    오프라인 교육은 3D프린팅 대구센터에서 진행<br>
+                    온라인 교육은 Zoom 프로그램에서 진행<br>
+                    교육대상 : 재직자 및 구직자(초,중,고등학생 신청불가)<br>
+                    오프라인 교육 신청자는 아래 2가지 사항에 해당되지 않습니다.<br>
+                    온라인 교육 신청 가능자 : 개인 PC 내에 Inventor 설치 및 Zoom 아이디 소지자<br>
+                    온라인 신청자는 신청서에 반드시 '온라인 교육 신청자'표기(미 기입시 온라인교육 취소)
+                </p>
+            </div>
+        </div>
+        <button type="button" class="fl-l button_background_gray common_list_button">목록</button>
+        <button type="button" class="fl-r button_background_blue">글쓰기</button>
+
+    </div>
+
+    <footer id="footer" class="sub_footer">
+        <div>
+            <h2>
+                <img src="../assets/images/ft_logo.png" alt="IACT로고이미지">
+            </h2>
+
+            <div class="fl-r footer_right">
+                <a href="#link">개인정보처리방침</a>
+                <a href="#link">이메일무단수집거부</a>
+            </div>
+        </div>
+        
+        <div class="address">
+            <address class="fl-l">
+                <span>Tel</span>
+                <a href="tel:1566-9778"><span>1566-9778</span></a>
+                <a href="tel:053-217-3456"><span>&#40;053-217-3456&#41;</span></a>
+                <span>Fax</span>
+                <span>053-289-4800</span>
+                <div class="address_m_top">
+                    <span>주소</span>
+                    <span>&#40;우&#41;41061 대구시 동구 동대로 70</span>
+                </div>
+            </address>
+
+            <div class="fl-r footer_right_address">
+                <span>Copyright &copy;</span>
+                <span>medi3dp.or.kr.</span>
+                <span>All rights reserved</span>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>

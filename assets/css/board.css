@@ -1,0 +1,24 @@
+/*----------시험검사DB 테이블 ---------------*/
+
+.DB_table{margin: 70px 0 137px 0;}
+.DB_table .common_table_question{float: right; margin: 0 9px 10px 7px;}
+.DB_table .common_table_question img{margin-top: 1px;}
+.DB_table .common_table_question span{font-size: 15px; color: #434343; letter-spacing: -0.9px; font-weight: bold; margin: 0 9px 20px 7px;}
+.common_table{width: 100%; color: #333; border: 1px solid #e5e5e5; border-left: none; border-right: none; border-collapse: collapse; border-spacing: 0;}
+.common_table thead th{background: #f4f4f4; height: 50px; font-size: 14px; letter-spacing: -0.84px; font-weight: bold; border: 1px solid #e5e5e5;}
+.common_table thead th:nth-child(1){border-left: none;}
+.common_table thead th:nth-last-child(1){border-right: none;}
+.common_table tbody td{height: 50px; border: 1px solid #e5e5e5; font-size: 15px; letter-spacing: -0.9px;}
+.common_table tbody td:nth-child(1){border-left: none;}
+.common_table tbody td:nth-last-child(1){border-right: none;}
+.common_table{width: 100%; color: #333; border: 1px solid #e5e5e5; border-left: none; border-right: none; border-collapse: collapse; border-spacing: 0;}
+.common_table tbody th{background: #f4f4f4; height: 50px; font-size: 14px; letter-spacing: -0.84px; font-weight: bold; border: 1px solid #e5e5e5;}
+.common_table tbody th:nth-child(1){border-left: none;}
+.DB_company .common_table{margin-bottom: 73px;}
+.DB_company .common_table_title span{margin-top: 10px;}
+.DB_company .common_table_title span:nth-child(1){width: 100px; height: 30px; background: #30328f; color: #fff; font-size: 16px; letter-spacing: -0.8px; font-weight: bold; border-radius: 15px; padding: 6px; margin-right: 18px;}
+.DB_company .common_table_title span:nth-child(2){font-size: 24px; color: #333; letter-spacing: -1.44px; font-weight: 500;}
+.common_table_td_left tr td{text-align: left !important; padding-left: 21px;}
+.common_table .text_left th{padding-left: 15px;}
+.common_table .text_left th:nth-child(1){border-left: 1px solid #e5e5e5;}
+.common_table .text_left td:nth-last-child(1){border-right: 1px solid #e5e5e5;}
